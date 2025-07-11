@@ -81,7 +81,7 @@ Lệnh trên sẽ trả về **HTTP 201** cùng header `Location: /v0.1/scan/{s
 
 ### 5.1 JSON‑Schema tổng quát
 
-File [`burp_core_schema.json`](./burp_core_schema.json) mô tả **đầy đủ** tuỳ chọn & kiểu dữ liệu cho 3 endpoint quan trọng: `POST /scan`, `GET /scan/{id}`, `GET /knowledge_base/issue_definitions`.
+File [`burp_core_schema.json`](./burp_api_doc.json) mô tả **đầy đủ** tuỳ chọn & kiểu dữ liệu cho 3 endpoint quan trọng: `POST /scan`, `GET /scan/{id}`, `GET /knowledge_base/issue_definitions`.
 
 > Trích đoạn rút gọn phần **body** gửi tới `/scan` (xem file để lấy bản đầy đủ):
 
